@@ -5,7 +5,7 @@ import streamlit as st
 sns.set(style='dark')
 
 def load_data():
-    data = pd.read_csv('main_data.csv') 
+    data = pd.read_csv('./dashboard/main_data.csv') 
     return data
 
 ecom_df = load_data()   
